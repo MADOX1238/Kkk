@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ترحيب</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+        #enter-chat { padding: 10px 20px; background-color: #007bff; color: #fff; border: none; cursor: pointer; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>مرحباً بك في موقع الدردشة العامة!</h1>
+    <button id="enter-chat">اضغط للدخول للدردشة العامة</button>
+
+    <script>
+        document.getElementById('enter-chat').addEventListener('click', () => {
+            window.location.href = 'chat.html'; // يوجه المستخدم إلى صفحة الدردشة
+        });
+    </script>
+
+</body></html>
